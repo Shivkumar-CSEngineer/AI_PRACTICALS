@@ -20,13 +20,13 @@ def find_pairs_of_father_and_child():
             print(value)
 find_pairs_of_father_and_child()
 
-def find_pairs_of_father_and_child():
-    print("List of father and there child are as follows")
-    for key,value in enumerate(parent_list):
-        # print(key," -> ",value)
-        if value[0] in male_list:
-            print(value)
-find_pairs_of_father_and_child()
+# def find_pairs_of_father_and_child():
+#     print("List of father and there child are as follows")
+#     for key,value in enumerate(parent_list):
+#         # print(key," -> ",value)
+#         if value[0] in male_list:
+#             print(value)
+# find_pairs_of_father_and_child()
 
 
 
