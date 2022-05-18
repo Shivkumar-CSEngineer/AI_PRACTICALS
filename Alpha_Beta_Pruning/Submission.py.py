@@ -37,7 +37,6 @@ def Alpha_Beta_Pruning(node,alpha,beta,ismax):
         else:
             node_values[node]=min(Leaf[node]);
             return min(Leaf[node]);
-    
 
 
 if __name__=="__main__":
@@ -53,6 +52,7 @@ if __name__=="__main__":
         except:
             Tree[node_previous]=[node_value];
     number_of_leaf_nodes=int(input("Enter Number Of leaf Nodes You have : "));
+    print(Tree)
     for i in range(number_of_leaf_nodes):
         node_details=input("Enter Leaf node Name : ")
         node_value=input("Enter the values of Leaf Node "+node_details+" : ")
@@ -60,6 +60,7 @@ if __name__=="__main__":
         Leaf.update({
             node_details:values
         })
+
 
     final_value=Alpha_Beta_Pruning("A",alpha=-100,beta=100,ismax=True);
     traversal_path=[];

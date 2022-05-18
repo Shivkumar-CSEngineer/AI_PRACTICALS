@@ -1,22 +1,11 @@
 
-print("------ Welcome To Water Jug Problem's Space Tree Traversal Using BFS Technique------")
+print("------ Welcome To Water Jug Problem's Space Tree Traversal Using BFS Technique ------")
 
 Traversed_list = []
 Goal_States=["2 0","2 1","2 2","2 3"]
 goal_state_actions=[]
 goal_state_path=[]
 is_Reached_to_goal_state=False
-# dictionary={
-#     'current_state':{
-#         'x':0,
-#         'y':0
-#     },
-#     'previous_list':[],
-#     'previous_path':[]
-# }
-
-# class Node:
-#     pass
 
 def check_cases(node):
     global Traversed_list,goal_state_actions,goal_state_path,is_Reached_to_goal_state
